@@ -1,0 +1,49 @@
+body {
+  font-family: 'Shrikhand', cursive; }
+
+.main-header {
+  position: relative;
+  background-color: #123455;
+  background: url("../img/Lighthouse.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  color: #ffffff;
+  opacity: 0.6; }
+
+.main-header h1 {
+  font-size: 5rem; }
+
+.main-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.advantages-icon {
+  height: 5rem; }
+
+.advantages-item {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  transition: all .3s ease-in-out; }
+
+.advantages-item:hover {
+  transform: scale(1.1); }
+
+.advantages-item h3 {
+  font-size: 2rem; }
+
+.review-item {
+  padding-top: 2rem; }
+
+.review-item h4 {
+  text-transform: uppercase; }
+
+.main-content__capture {
+  background-size: cover;
+  min-height: 30rem; }
+
+.footer-title {
+  font-size: 2.5rem; }
